@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DA319F2EFC57DCB71D5634 /* Pods_Juzzibar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEBBCF755FD203C3F972EE3 /* Pods_Juzzibar.framework */; };
+		AF5532166822448ABBF84F8B /* Pods_JuzzibarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA29E9FA53928B3409433A6D /* Pods_JuzzibarTests.framework */; };
+		AFD488591DEBF8EB00FEB3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD488581DEBF8EB00FEB3DF /* AppDelegate.swift */; };
+		AFD4885B1DEBF8EB00FEB3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4885A1DEBF8EB00FEB3DF /* ViewController.swift */; };
+		AFD488601DEBF8EB00FEB3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD4885F1DEBF8EB00FEB3DF /* Assets.xcassets */; };
+		AFD488631DEBF8EB00FEB3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD488611DEBF8EB00FEB3DF /* LaunchScreen.storyboard */; };
+		AFD4886E1DEBF8EB00FEB3DF /* JuzzibarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4886D1DEBF8EB00FEB3DF /* JuzzibarTests.swift */; };
+		AFD488791DEBF8EB00FEB3DF /* JuzzibarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD488781DEBF8EB00FEB3DF /* JuzzibarUITests.swift */; };
+		AFD4888A1DEBFCF200FEB3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD488891DEBFCF200FEB3DF /* Main.storyboard */; };
+		AFD4888E1DEBFD0000FEB3DF /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4888B1DEBFD0000FEB3DF /* GroceryListTableViewController.swift */; };
+		AFD4888F1DEBFD0000FEB3DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4888C1DEBFD0000FEB3DF /* LoginViewController.swift */; };
+		AFD488901DEBFD0000FEB3DF /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4888D1DEBFD0000FEB3DF /* OnlineUsersTableViewController.swift */; };
+		AFD488931DEBFD6700FEB3DF /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD488911DEBFD6700FEB3DF /* GroceryItem.swift */; };
+		AFD488941DEBFD6700FEB3DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD488921DEBFD6700FEB3DF /* User.swift */; };
+		AFD488961DEBFEAA00FEB3DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFD488951DEBFEAA00FEB3DF /* GoogleService-Info.plist */; };
+		FD47B5F9233EE90EF81EF902 /* Pods_JuzzibarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC3BCFA8053E2FA19ECD146 /* Pods_JuzzibarUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD4886A1DEBF8EB00FEB3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD4884D1DEBF8EB00FEB3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD488541DEBF8EB00FEB3DF;
+			remoteInfo = Juzzibar;
+		};
+		AFD488751DEBF8EB00FEB3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD4884D1DEBF8EB00FEB3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD488541DEBF8EB00FEB3DF;
+			remoteInfo = Juzzibar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A57EA283FA92E438E1D063 /* Pods-JuzzibarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuzzibarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuzzibarTests/Pods-JuzzibarTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D8F6BBDA95452D833ADDBA4 /* Pods-JuzzibarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuzzibarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuzzibarUITests/Pods-JuzzibarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC3BCFA8053E2FA19ECD146 /* Pods_JuzzibarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuzzibarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDBD006A94EC76549379338 /* Pods-Juzzibar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juzzibar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Juzzibar/Pods-Juzzibar.release.xcconfig"; sourceTree = "<group>"; };
+		6772EB71E541D436B7EC228F /* Pods-Juzzibar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juzzibar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Juzzibar/Pods-Juzzibar.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD488551DEBF8EB00FEB3DF /* Juzzibar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juzzibar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD488581DEBF8EB00FEB3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD4885A1DEBF8EB00FEB3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD4885F1DEBF8EB00FEB3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD488621DEBF8EB00FEB3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD488641DEBF8EB00FEB3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD488691DEBF8EB00FEB3DF /* JuzzibarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuzzibarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD4886D1DEBF8EB00FEB3DF /* JuzzibarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzzibarTests.swift; sourceTree = "<group>"; };
+		AFD4886F1DEBF8EB00FEB3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD488741DEBF8EB00FEB3DF /* JuzzibarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuzzibarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD488781DEBF8EB00FEB3DF /* JuzzibarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuzzibarUITests.swift; sourceTree = "<group>"; };
+		AFD4887A1DEBF8EB00FEB3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD488891DEBFCF200FEB3DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AFD4888B1DEBFD0000FEB3DF /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		AFD4888C1DEBFD0000FEB3DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFD4888D1DEBFD0000FEB3DF /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
+		AFD488911DEBFD6700FEB3DF /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		AFD488921DEBFD6700FEB3DF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AFD488951DEBFEAA00FEB3DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFD488971DEC02AD00FEB3DF /* Juzzibar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Juzzibar.entitlements; sourceTree = "<group>"; };
+		B15530B400146E2839DBB551 /* Pods-JuzzibarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuzzibarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuzzibarTests/Pods-JuzzibarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA29E9FA53928B3409433A6D /* Pods_JuzzibarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuzzibarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B258100632D1D4DA2C01E /* Pods-JuzzibarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuzzibarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuzzibarUITests/Pods-JuzzibarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFEBBCF755FD203C3F972EE3 /* Pods_Juzzibar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Juzzibar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD488521DEBF8EB00FEB3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DA319F2EFC57DCB71D5634 /* Pods_Juzzibar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488661DEBF8EB00FEB3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5532166822448ABBF84F8B /* Pods_JuzzibarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488711DEBF8EB00FEB3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD47B5F9233EE90EF81EF902 /* Pods_JuzzibarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A88560BC82E72B9E4D9427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6772EB71E541D436B7EC228F /* Pods-Juzzibar.debug.xcconfig */,
+				4EDBD006A94EC76549379338 /* Pods-Juzzibar.release.xcconfig */,
+				B15530B400146E2839DBB551 /* Pods-JuzzibarTests.debug.xcconfig */,
+				09A57EA283FA92E438E1D063 /* Pods-JuzzibarTests.release.xcconfig */,
+				0D8F6BBDA95452D833ADDBA4 /* Pods-JuzzibarUITests.debug.xcconfig */,
+				CD3B258100632D1D4DA2C01E /* Pods-JuzzibarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFD4884C1DEBF8EB00FEB3DF = {
+			isa = PBXGroup;
+			children = (
+				AFD488571DEBF8EB00FEB3DF /* Juzzibar */,
+				AFD4886C1DEBF8EB00FEB3DF /* JuzzibarTests */,
+				AFD488771DEBF8EB00FEB3DF /* JuzzibarUITests */,
+				AFD488561DEBF8EB00FEB3DF /* Products */,
+				48A88560BC82E72B9E4D9427 /* Pods */,
+				F79F6D4BB470222E76BDF230 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD488561DEBF8EB00FEB3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD488551DEBF8EB00FEB3DF /* Juzzibar.app */,
+				AFD488691DEBF8EB00FEB3DF /* JuzzibarTests.xctest */,
+				AFD488741DEBF8EB00FEB3DF /* JuzzibarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD488571DEBF8EB00FEB3DF /* Juzzibar */ = {
+			isa = PBXGroup;
+			children = (
+				AFD488971DEC02AD00FEB3DF /* Juzzibar.entitlements */,
+				AFD488861DEBFBD000FEB3DF /* Controllers */,
+				AFD488881DEBFC1500FEB3DF /* Models */,
+				AFD488871DEBFBFF00FEB3DF /* Views */,
+				AFD488581DEBF8EB00FEB3DF /* AppDelegate.swift */,
+				AFD4885A1DEBF8EB00FEB3DF /* ViewController.swift */,
+				AFD4885F1DEBF8EB00FEB3DF /* Assets.xcassets */,
+				AFD488611DEBF8EB00FEB3DF /* LaunchScreen.storyboard */,
+				AFD488951DEBFEAA00FEB3DF /* GoogleService-Info.plist */,
+				AFD488641DEBF8EB00FEB3DF /* Info.plist */,
+			);
+			path = Juzzibar;
+			sourceTree = "<group>";
+		};
+		AFD4886C1DEBF8EB00FEB3DF /* JuzzibarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD4886D1DEBF8EB00FEB3DF /* JuzzibarTests.swift */,
+				AFD4886F1DEBF8EB00FEB3DF /* Info.plist */,
+			);
+			path = JuzzibarTests;
+			sourceTree = "<group>";
+		};
+		AFD488771DEBF8EB00FEB3DF /* JuzzibarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD488781DEBF8EB00FEB3DF /* JuzzibarUITests.swift */,
+				AFD4887A1DEBF8EB00FEB3DF /* Info.plist */,
+			);
+			path = JuzzibarUITests;
+			sourceTree = "<group>";
+		};
+		AFD488861DEBFBD000FEB3DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFD4888B1DEBFD0000FEB3DF /* GroceryListTableViewController.swift */,
+				AFD4888C1DEBFD0000FEB3DF /* LoginViewController.swift */,
+				AFD4888D1DEBFD0000FEB3DF /* OnlineUsersTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFD488871DEBFBFF00FEB3DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFD488891DEBFCF200FEB3DF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFD488881DEBFC1500FEB3DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFD488911DEBFD6700FEB3DF /* GroceryItem.swift */,
+				AFD488921DEBFD6700FEB3DF /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F79F6D4BB470222E76BDF230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFEBBCF755FD203C3F972EE3 /* Pods_Juzzibar.framework */,
+				CA29E9FA53928B3409433A6D /* Pods_JuzzibarTests.framework */,
+				4BC3BCFA8053E2FA19ECD146 /* Pods_JuzzibarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD488541DEBF8EB00FEB3DF /* Juzzibar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD4887D1DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "Juzzibar" */;
+			buildPhases = (
+				A0CF5D83E01BC636A3F7ABF7 /* [CP] Check Pods Manifest.lock */,
+				AFD488511DEBF8EB00FEB3DF /* Sources */,
+				AFD488521DEBF8EB00FEB3DF /* Frameworks */,
+				AFD488531DEBF8EB00FEB3DF /* Resources */,
+				2D1B324FC92EEAA07FDB7A23 /* [CP] Embed Pods Frameworks */,
+				B1658D0373E0904183C61F88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juzzibar;
+			productName = Juzzibar;
+			productReference = AFD488551DEBF8EB00FEB3DF /* Juzzibar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD488681DEBF8EB00FEB3DF /* JuzzibarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD488801DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "JuzzibarTests" */;
+			buildPhases = (
+				8BE7A12B4595615454982E2E /* [CP] Check Pods Manifest.lock */,
+				AFD488651DEBF8EB00FEB3DF /* Sources */,
+				AFD488661DEBF8EB00FEB3DF /* Frameworks */,
+				AFD488671DEBF8EB00FEB3DF /* Resources */,
+				91E1766C3A6A6D7AD10E378C /* [CP] Embed Pods Frameworks */,
+				28B450A67E2FC3228F4CD986 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD4886B1DEBF8EB00FEB3DF /* PBXTargetDependency */,
+			);
+			name = JuzzibarTests;
+			productName = JuzzibarTests;
+			productReference = AFD488691DEBF8EB00FEB3DF /* JuzzibarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD488731DEBF8EB00FEB3DF /* JuzzibarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD488831DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "JuzzibarUITests" */;
+			buildPhases = (
+				5C64824E16CBF74C5B9FA3AC /* [CP] Check Pods Manifest.lock */,
+				AFD488701DEBF8EB00FEB3DF /* Sources */,
+				AFD488711DEBF8EB00FEB3DF /* Frameworks */,
+				AFD488721DEBF8EB00FEB3DF /* Resources */,
+				8B63F254EC9B57D20197562B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD488761DEBF8EB00FEB3DF /* PBXTargetDependency */,
+			);
+			name = JuzzibarUITests;
+			productName = JuzzibarUITests;
+			productReference = AFD488741DEBF8EB00FEB3DF /* JuzzibarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD4884D1DEBF8EB00FEB3DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Derrick Willer";
+				TargetAttributes = {
+					AFD488541DEBF8EB00FEB3DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ACG53998M2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					AFD488681DEBF8EB00FEB3DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M7XB9T6MQ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFD488541DEBF8EB00FEB3DF;
+					};
+					AFD488731DEBF8EB00FEB3DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M7XB9T6MQ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFD488541DEBF8EB00FEB3DF;
+					};
+				};
+			};
+			buildConfigurationList = AFD488501DEBF8EB00FEB3DF /* Build configuration list for PBXProject "Juzzibar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD4884C1DEBF8EB00FEB3DF;
+			productRefGroup = AFD488561DEBF8EB00FEB3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD488541DEBF8EB00FEB3DF /* Juzzibar */,
+				AFD488681DEBF8EB00FEB3DF /* JuzzibarTests */,
+				AFD488731DEBF8EB00FEB3DF /* JuzzibarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD488531DEBF8EB00FEB3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD4888A1DEBFCF200FEB3DF /* Main.storyboard in Resources */,
+				AFD488961DEBFEAA00FEB3DF /* GoogleService-Info.plist in Resources */,
+				AFD488631DEBF8EB00FEB3DF /* LaunchScreen.storyboard in Resources */,
+				AFD488601DEBF8EB00FEB3DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488671DEBF8EB00FEB3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488721DEBF8EB00FEB3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B450A67E2FC3228F4CD986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuzzibarTests/Pods-JuzzibarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D1B324FC92EEAA07FDB7A23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Juzzibar/Pods-Juzzibar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C64824E16CBF74C5B9FA3AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B63F254EC9B57D20197562B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuzzibarUITests/Pods-JuzzibarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE7A12B4595615454982E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91E1766C3A6A6D7AD10E378C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuzzibarTests/Pods-JuzzibarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CF5D83E01BC636A3F7ABF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1658D0373E0904183C61F88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Juzzibar/Pods-Juzzibar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD488511DEBF8EB00FEB3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD488901DEBFD0000FEB3DF /* OnlineUsersTableViewController.swift in Sources */,
+				AFD4888F1DEBFD0000FEB3DF /* LoginViewController.swift in Sources */,
+				AFD4885B1DEBF8EB00FEB3DF /* ViewController.swift in Sources */,
+				AFD4888E1DEBFD0000FEB3DF /* GroceryListTableViewController.swift in Sources */,
+				AFD488931DEBFD6700FEB3DF /* GroceryItem.swift in Sources */,
+				AFD488591DEBF8EB00FEB3DF /* AppDelegate.swift in Sources */,
+				AFD488941DEBFD6700FEB3DF /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488651DEBF8EB00FEB3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD4886E1DEBF8EB00FEB3DF /* JuzzibarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD488701DEBF8EB00FEB3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD488791DEBF8EB00FEB3DF /* JuzzibarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD4886B1DEBF8EB00FEB3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD488541DEBF8EB00FEB3DF /* Juzzibar */;
+			targetProxy = AFD4886A1DEBF8EB00FEB3DF /* PBXContainerItemProxy */;
+		};
+		AFD488761DEBF8EB00FEB3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD488541DEBF8EB00FEB3DF /* Juzzibar */;
+			targetProxy = AFD488751DEBF8EB00FEB3DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD488611DEBF8EB00FEB3DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD488621DEBF8EB00FEB3DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD4887B1DEBF8EB00FEB3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD4887C1DEBF8EB00FEB3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD4887E1DEBF8EB00FEB3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6772EB71E541D436B7EC228F /* Pods-Juzzibar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Juzzibar/Juzzibar.entitlements;
+				DEVELOPMENT_TEAM = ACG53998M2;
+				INFOPLIST_FILE = Juzzibar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFD4887F1DEBF8EB00FEB3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDBD006A94EC76549379338 /* Pods-Juzzibar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Juzzibar/Juzzibar.entitlements;
+				DEVELOPMENT_TEAM = ACG53998M2;
+				INFOPLIST_FILE = Juzzibar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFD488811DEBF8EB00FEB3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15530B400146E2839DBB551 /* Pods-JuzzibarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M7XB9T6MQ7;
+				INFOPLIST_FILE = JuzzibarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.JuzzibarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juzzibar.app/Juzzibar";
+			};
+			name = Debug;
+		};
+		AFD488821DEBF8EB00FEB3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A57EA283FA92E438E1D063 /* Pods-JuzzibarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M7XB9T6MQ7;
+				INFOPLIST_FILE = JuzzibarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.JuzzibarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juzzibar.app/Juzzibar";
+			};
+			name = Release;
+		};
+		AFD488841DEBF8EB00FEB3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8F6BBDA95452D833ADDBA4 /* Pods-JuzzibarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M7XB9T6MQ7;
+				INFOPLIST_FILE = JuzzibarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.JuzzibarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Juzzibar;
+			};
+			name = Debug;
+		};
+		AFD488851DEBF8EB00FEB3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3B258100632D1D4DA2C01E /* Pods-JuzzibarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M7XB9T6MQ7;
+				INFOPLIST_FILE = JuzzibarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzzibar.JuzzibarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Juzzibar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD488501DEBF8EB00FEB3DF /* Build configuration list for PBXProject "Juzzibar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD4887B1DEBF8EB00FEB3DF /* Debug */,
+				AFD4887C1DEBF8EB00FEB3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD4887D1DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "Juzzibar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD4887E1DEBF8EB00FEB3DF /* Debug */,
+				AFD4887F1DEBF8EB00FEB3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD488801DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "JuzzibarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD488811DEBF8EB00FEB3DF /* Debug */,
+				AFD488821DEBF8EB00FEB3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD488831DEBF8EB00FEB3DF /* Build configuration list for PBXNativeTarget "JuzzibarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD488841DEBF8EB00FEB3DF /* Debug */,
+				AFD488851DEBF8EB00FEB3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD4884D1DEBF8EB00FEB3DF /* Project object */;
+}

@@ -1,2 +1,0 @@
-# juzzibar-ios
-Juzzibar iOS
